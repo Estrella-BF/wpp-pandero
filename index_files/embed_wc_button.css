@@ -1,0 +1,97 @@
+/*--Template 1 styles --*/
+#s1chat_welcome_wrapper.animated, #s1chat_iframe_wrapper.animated{ -webkit-animation-fill-mode: initial !important; animation-fill-mode: initial !important; -webkit-animation-iteration-count: initial !important; animation-iteration-count: initial !important; }
+#s1chat_welcome_wrapper{display:none;}
+#s1chat_welcome_wrapper .text, #s1chat_welcome_wrapper .short-text{display:none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#s1chat_welcome_wrapper { cursor: pointer; position: fixed; bottom: 0; right: 10px; box-sizing: border-box; width: 240px; padding: 10px; z-index: 16000002; height: 35px; background: #005ABB; border-top-left-radius: 10px; border-top-right-radius: 10px; color: #fff; overflow: hidden;}
+#s1chat_welcome_wrapper .material-icons{float: left; font-size: 20px}
+#s1chat_welcome_wrapper #s1_chat_img{float: left;} 
+#s1chat_welcome_wrapper .text{display:block; font-size: 15px; font-family: Arial, Sans-Serif; padding-left: 7px;}
+
+/*icono whatsapp*/
+#wpp_welcome_wrapper.animated, #s1chat_iframe_wrapper.animated{ -webkit-animation-fill-mode: initial !important; animation-fill-mode: initial !important; -webkit-animation-iteration-count: initial !important; animation-iteration-count: initial !important; }
+#wpp_welcome_wrapper{display:none;}
+#wpp_welcome_wrapper .text, #wpp_welcome_wrapper .short-text{display:none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+#wpp_welcome_wrapper { cursor: pointer; position: fixed; bottom: 0; right: 10px; box-sizing: border-box; width: 240px; padding: 10px; z-index: 16000002; height: 35px; background: #005ABB; border-top-left-radius: 10px; border-top-right-radius: 10px; color: #fff; overflow: hidden;}
+#wpp_welcome_wrapper .material-icons{float: left; font-size: 20px}
+#wpp_welcome_wrapper #wpp_chat_img{float: left;} 
+#wpp_welcome_wrapper .text{display:block; font-size: 15px; font-family: Arial, Sans-Serif; padding-left: 7px;}
+
+#s1chat_iframe_wrapper {display:none;margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; width: 290px; height: 400px; box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 3px 2px; background: #ffffff;}
+#s1chat_iframe_wrapper .s1chat_sub_wrapper{ height:100%; width: 100%; position: relative}
+#s1chat_iframe_wrapper .s1chat_iframe { 
+  vertical-align: text-bottom; 
+  position: relative; 
+  width: 100%; 
+  height: 100%; 
+  min-width: 100%; 
+  min-height: 100%; 
+  max-width: 100%; 
+  max-height: 100%; 
+  margin: 0px; 
+  overflow: hidden; 
+  display: none; 
+}
+
+.phone #s1chat_welcome_wrapper {bottom: 10px; right: 10px; width: 100px; padding: 5px; z-index: 16000002; height: 25px; border-radius: 5px; overflow: hidden; }
+.phone #s1chat_welcome_wrapper .material-icons{font-size: 15px}
+.phone #s1chat_welcome_wrapper .text{display:none;}
+.phone #s1chat_welcome_wrapper .short-text{display:block; font-size: 12px; font-family: Arial, Sans-Serif;padding-left: 5px;}
+
+/*icono whatsapp*/
+.phone #wpp_welcome_wrapper {bottom: 10px; right: 10px; width: 100px; padding: 5px; z-index: 16000002; height: 25px; border-radius: 5px; overflow: hidden; }
+.phone #wpp_welcome_wrapper .material-icons{font-size: 15px}
+.phone #wpp_welcome_wrapper .text{display:none;}
+.phone #wpp_welcome_wrapper .short-text{display:block; font-size: 12px; font-family: Arial, Sans-Serif;padding-left: 5px;}
+
+
+.phone #s1chat_iframe_wrapper{margin-right: 0px; width: 100% !important; height: 100% !important; right: 0;}
+
+/*--Template 2 styles --*/
+.template2#s1chat_welcome_wrapper .text, #s1chat_welcome_wrapper .short-text{display:none;}
+.template2#s1chat_welcome_wrapper {right: 10px; border-radius: 50%;  width: 60px; height: 60px; bottom: 10px; text-align: center;}
+.template2#s1chat_welcome_wrapper .material-icons{ font-size: 30px; margin-top: 5px; float: none;}
+.template2#s1chat_welcome_wrapper .text{display:none; }
+.phone .template2#s1chat_welcome_wrapper {bottom: 10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; }
+.phone .template2#s1chat_welcome_wrapper .material-icons{font-size: 20px}
+.phone .template2#s1chat_welcome_wrapper .short-text{display:none;}
+
+/*icono whatsapp*/
+.template2#wpp_welcome_wrapper .text, #wpp_welcome_wrapper .short-text{display:none;}
+.template2#wpp_welcome_wrapper {right: 10px; border-radius: 50%;  width: 60px; height: 60px; bottom: 10px; text-align: center;}
+.template2#wpp_welcome_wrapper .material-icons{ font-size: 30px; margin-top: 5px; float: none;}
+.template2#wpp_welcome_wrapper .text{display:none; }
+.phone .template2#wpp_welcome_wrapper {bottom: 10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; }
+.phone .template2#wpp_welcome_wrapper .material-icons{font-size: 20px}
+.phone .template2#wpp_welcome_wrapper .short-text{display:none;}
+
+
+
+/*--Template 3 styles --*/
+.template3#s1chat_welcome_wrapper .text, #s1chat_welcome_wrapper .short-text{display:none;}
+.template3#s1chat_welcome_wrapper {right: 0px; width: 50px; height: 40px; bottom: 50%; text-align: center; border-radius:0; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+.template3#s1chat_welcome_wrapper .material-icons{ font-size: 25px; margin-top: -2px; float: none;}
+.template3#s1chat_welcome_wrapper .text{display:none; }
+.phone .template3#s1chat_welcome_wrapper {bottom: 10px; right: 10px; width: 35px; height: 35px; border-radius: 10px; }
+.phone .template3#s1chat_welcome_wrapper .material-icons{font-size: 20px; margin-top: 2px;}
+.phone .template3#s1chat_welcome_wrapper .short-text{display:none;}
+
+/*icono whatsapp*/
+.template3#wpp_welcome_wrapper .text, #wpp_welcome_wrapper .short-text{display:none;}
+.template3#wpp_welcome_wrapper {right: 0px; width: 50px; height: 40px; bottom: 50%; text-align: center; border-radius:0; border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+.template3#wpp_welcome_wrapper .material-icons{ font-size: 25px; margin-top: -2px; float: none;}
+.template3#wpp_welcome_wrapper .text{display:none; }
+.phone .template3#wpp_welcome_wrapper {bottom: 10px; right: 10px; width: 35px; height: 35px; border-radius: 10px; }
+.phone .template3#wpp_welcome_wrapper .material-icons{font-size: 20px; margin-top: 2px;}
+.phone .template3#wpp_welcome_wrapper .short-text{display:none;}
+
+#s1chat_minimize{position: absolute; cursor:pointer; z-index: 1; color: white; font-size: 15px; right: 5px; top: 3px;}
+#s1chat_minimize i{font-size: inherit;}
+.s1loading{ width: 100%; text-align: center; background: #ffffff; }
+.s1loading img{ width: 70px; height: 70px; margin: 50% auto; }
+
+/*iOS*/
+.phone.iOS.s1-chat-opened body{ position:fixed; } 
+
+#s1chat_notify_bubble{position: fixed; padding: 2px; background-color: #ff0000; color: #ffffff; border-radius: 50%; box-shadow: 0px 0px 15px #fff; text-align: center; height: 20px; width: 20px; z-index: 16000003; display:none;}
+.s1-new-message #s1chat_notify_bubble{ display:block;}
+#s1chat_notify_bubble i.material-icons{ font-size: 16px; float: none; padding: 2px;}

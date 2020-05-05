@@ -1,0 +1,94 @@
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label,
+#label-attachment {
+    width:100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.no-js .inputfile + label,
+.no-js #label-attachment {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label svg,
+#label-attachment svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+.inputfile + label,
+#label-attachment {
+    color: #00665e;
+}
+.inputfile + label,
+#label-attachment {
+    border: 1px solid #009286;
+    background-color: #ffffff;
+    padding: 0;
+    border-radius: 13px;
+    margin: 0;
+}
+.inputfile + label span,
+#label-attachment span,
+.inputfile + label strong,
+#label-attachment strong {
+    padding: 0.625rem 1.25rem;
+}
+.inputfile + label span,
+#label-attachment span {
+    min-height: 2em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    width: 75% !important;
+}
+
+.inputfile + label strong,
+#label-attachment strong {
+    height: 100%;
+    float: right;
+    color: #f1e5e6;
+    background-color: #00665e;
+    display: inline-block;
+}
+#reply-title,
+.comment-notes,
+.comment-form-attachment label[for="attachment"],
+.comment-form-attachment #attachment {
+    display: none;
+}
+#label-attachment {
+    display: block;
+}
+#attachmentForm a {
+    color: #fff;
+}
+@media screen and (max-width: 50em) {
+	.inputfile + label strong,
+    #label-attachment strong {
+		display: block;
+	}
+}
