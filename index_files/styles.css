@@ -119,10 +119,10 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 
 .text-box {
-  padding: 13px;
+  padding: 6px 15px;
 }
 
-.text-box div {
+.text-box div, .text-box a {
   cursor: pointer;
   font-size: 13px;
   font-family: 'Poppins' !important;
@@ -132,7 +132,19 @@ div.wpcf7 .wpcf7-submit:disabled {
 
 .whatsapp-icon img, .text-box {
   background: greenyellow;
-  border-radius: 12px;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.whatsapp-icon img {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#text-box {
+  left: -87px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .show-textbox {

@@ -38,26 +38,27 @@ select{
 select option{
     color:#000;
 }
+/*
 @font-face {
     font-family: 'Geometrica Book';
     src: url('../fonts/Geometrica-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
+}*/
+/*
 @font-face {
     font-family: 'Geometrica';
     src: url('../fonts/Geometrica-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
-
+}*/
+/*
 @font-face {
     font-family: 'Geometrica';
     src: url('../fonts/Geometrica-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
-}
+}*/
 .w-100 {
     height: auto;
 }
